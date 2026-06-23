@@ -1,37 +1,19 @@
 body {
-  margin: 0;
-  height: 100vh;
-  overflow: hidden;
-  background: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-  color: white;
-  z-index: 10;
-  position: relative;
+    color: red;
+    margin-top: 30px;
 }
 
-/* particules */
-.particle {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  background: red;
-  border-radius: 50%;
-  animation: explode 1s ease-out forwards;
-}
-
-@keyframes explode {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(var(--x), var(--y)) scale(0);
-    opacity: 0;
-  }
+img {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
